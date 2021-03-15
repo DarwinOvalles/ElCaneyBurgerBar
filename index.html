@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <section>
+        <form action="php/correo.php" method ="POST" class="newsletter">
+            <input type="text" name="nombre" id="" class="newsletter__input" placeholder="Ingresa tu Nombre" required>
+            <input type="tel" name="telefono" id="" class="newsletter__input" placeholder="Ingresa tu Teléfono" required>
+            <input type="date" class="newsletter__input" placeholder="Ingresa tu Fecha" required>
+            <input type="time" class="newsletter__input" placeholder="Ingresa tu Hora" required>
+            <select class="newsletter__input" name="local">
+                <option selected value="0">Elige tu Restaurant</option> 
+                <option value="1">Colmenar Viejo</option> 
+                <option value="2">Tres Cantos</option> 
+            </select>
+            <select class="newsletter__input" name="personas">
+                <option selected value="0">1</option> 
+                <option value="1">2</option> 
+                <option value="2">3</option>
+                <option value="2">4</option> 
+                <option value="2">5</option> 
+                <option value="2">6</option> 
+                <option value="2">7</option> 
+                <option value="2">8</option> 
+                <option value="2">9</option> 
+                <option value="2">10</option> 
+            </select>
+            <input type="text" class="newsletter__input" placeholder="Observaciones">
+            <input type="submit" class="newsletter__submit" value="Reserva Ya">
+        </form>
+    </section>
+</body>
+</html>
